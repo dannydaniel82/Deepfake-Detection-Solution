@@ -22,6 +22,35 @@ reference2 :: https://github.com/ondyari/FaceForensics
 requirements.txt 에서 필요한 라이브러리를 설치합니다.
 
 copy >>> pip install -r requirements.txt
+<img width="475" alt="스크린샷 2025-04-07 오후 12 35 06" src="https://github.com/user-attachments/assets/8b99eace-583c-469a-82ce-93f31334ae86" />
+
+your_project/
+├── main.py
+├── modules/
+│ ├── init.py
+│ ├── model_loader.py
+│ ├── video_processing.py
+│ ├── session_manager.py
+│ ├── utils.py
+│ ├── network/
+│ │ ├── init.py
+│ │ └── models.py
+│ └── dataset/
+│ ├── init.py
+│ └── transform.py
+├── templates/
+│ ├── index.html
+│ ├── upload.html
+│ ├── select_model.html
+│ ├── loading.html
+│ └── results.html
+├── static/
+│ └── (static files)
+├── uploaded_videos/
+├── requirements.txt
+└── README.md
+
+
 
 ### 예외처리를 위한 requirements(macos).txt 파일을 참고하세요
 
