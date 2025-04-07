@@ -1,15 +1,26 @@
-# Dankook University
-# 단국대학교 소프트웨어학과 캡스톤디자인
-# 딥페이크 탐지 솔루션
+# DeepFake Detection Solution
+Deepfake detection solution is a capstone design project, which is a web-based solution that uses artificial intelligence to detect manipulated images (deepfakes).
 
-## 시연동영상은 다음 링크에서 확인할 수 있습니다.
->> https://youtu.be/VaUbPGmcrPU <<
+It is implemented based on the Xception model and can quickly determine the authenticity of images uploaded by users.
 
 
-# Model :: Xception
+## you can check out the full presentation on this YouTube link (Korean)
+https://www.youtube.com/watch?v=WC1znYaKgjg <<
+
+
+
+
+
+## Main Model (Xception)
+<img width="1013" alt="Model Architecture" src="https://github.com/user-attachments/assets/b49e06ce-dc62-454b-8eae-decfa952ab40" />
 reference1 :: https://github.com/HongguLiu/Deepfake-Detection
-
 reference2 :: https://github.com/ondyari/FaceForensics
+
+
+# Train Result
+"We supplemented FaceForensics++ and a private Asian dataset on the existing data (For Asian data, please contact the LAB)"
+<img width="535" alt="model train" src="https://github.com/user-attachments/assets/3524d143-b2a4-4727-9088-27f657125b10" />
+
 
 ## Python, FastAPI, HTML, CSS
 
